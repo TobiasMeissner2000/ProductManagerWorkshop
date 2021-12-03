@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WorkshopApi/1.0.0": {
+        "dependencies": {
+          "ProductManager": "1.0.0"
+        },
+        "runtime": {
+          "WorkshopApi.dll": {}
+        }
+      },
+      "ProductManager/1.0.0": {
+        "runtime": {
+          "ProductManager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WorkshopApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

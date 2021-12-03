@@ -1,0 +1,12 @@
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\bin\Debug\net5.0\ProductManager.deps.json
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\bin\Debug\net5.0\ProductManager.dll
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\bin\Debug\net5.0\ref\ProductManager.dll
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\bin\Debug\net5.0\ProductManager.pdb
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.csprojAssemblyReference.cache
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.AssemblyInfoInputs.cache
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.AssemblyInfo.cs
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.csproj.CoreCompileInputs.cache
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.dll
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ref\ProductManager.dll
+C:\Users\tobias.meissner\source\repos\WorkshopApi\ProductManager\obj\Debug\net5.0\ProductManager.pdb
