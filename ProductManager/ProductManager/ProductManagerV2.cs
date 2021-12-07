@@ -50,7 +50,7 @@ namespace ProductManager.ProductManager
                 if (!this.IsApiTokenValid())
                     this.SetNewAuthToken();
 
-                return this.HttpHandler.GetAllProductsAsync(this.v2Pathes.GetAllProducts);
+                return this.HttpHandler.GetAllProducts(this.v2Pathes.GetAllProducts);
 
             }
             catch (Exception e)
@@ -67,7 +67,7 @@ namespace ProductManager.ProductManager
                     this.SetNewAuthToken();
 
                 var s = this.v2Pathes.GetProduct;
-                return this.HttpHandler.GetProductAsync(string.Format(this.v2Pathes.GetProduct, id));
+                return this.HttpHandler.GetProduct(string.Format(this.v2Pathes.GetProduct, id));
             }
             catch (Exception e)
             {

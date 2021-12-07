@@ -46,7 +46,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.GetAllProductsAsync(this.v1Pathes.GetAllProducts);
+                return this.HttpHandler.GetAllProducts(this.v1Pathes.GetAllProducts);
             }
             catch (Exception e)
             {
@@ -58,7 +58,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.GetProductAsync(string.Format(this.v1Pathes.GetProduct, id));
+                return this.HttpHandler.GetProduct(string.Format(this.v1Pathes.GetProduct, id));
             }
             catch (Exception e)
             {

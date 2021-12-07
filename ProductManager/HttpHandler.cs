@@ -17,15 +17,15 @@ namespace ProductManager
 
         #region public
 
-        public HttpHandler(string ip, string authToken)
+        public HttpHandler(string baseAdress, string authToken)
         {
-            this.HttpClient.BaseAddress = new Uri(ip);
+            this.HttpClient.BaseAddress = new Uri(baseAdress);
             this.HttpClient.DefaultRequestHeaders.Add("X-Api-Key", authToken);
         }
 
-        public HttpHandler(string ip)
+        public HttpHandler(string baseAdress)
         {
-            this.HttpClient.BaseAddress = new Uri(ip);
+            this.HttpClient.BaseAddress = new Uri(baseAdress);
         }
 
         public void SetAuthToken(string authToken)
@@ -82,7 +82,7 @@ namespace ProductManager
         }
 
 
-        public List<Product> GetAllProductsAsync(string path)
+        public List<Product> GetAllProducts(string path)
         {
             try
             {
@@ -98,7 +98,7 @@ namespace ProductManager
             }
         }
 
-        public Product GetProductAsync(string path)
+        public Product GetProduct(string path)
         {
             try
             {

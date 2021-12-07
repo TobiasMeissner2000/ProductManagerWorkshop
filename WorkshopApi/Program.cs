@@ -9,9 +9,10 @@ namespace WorkshopApi
         private static string authTokenTobias = "dcq817XiNUfUWz74E6fe9kINmNninZvEXoZIYHup";
         public static ProductManagerV1 ProductManagerV1 { get; set; } = new ProductManagerV1(authTokenTobias);
         public static ProductManagerV2 ProductManagerV2 { get; set; } = new ProductManagerV2(authTokenTobias);
+
         public static Product TestProduct = new Product()
         {
-            Name = "TobisSupaaDupaaProduct",
+            Name = "CoolesDingDasJederBraucht",
             Price = 1499.99
         };
         private static void Main(string[] args)
@@ -27,8 +28,6 @@ namespace WorkshopApi
         {
             var a = ProductManagerV2.GetAllReviews("101");
             var allProducts = ProductManagerV2.GetReviewById("1", "101");
-            
-            var end = "hello";
         }
     }
 }
