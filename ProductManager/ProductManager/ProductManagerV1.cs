@@ -9,6 +9,7 @@ namespace ProductManager.ProductManager
     public class ProductManagerV1
     {
         #region props
+
         private HttpHandler HttpHandler { get; }
 
         #endregion
@@ -17,7 +18,6 @@ namespace ProductManager.ProductManager
 
         private string authToken = string.Empty;
         private readonly string ip = "http://144.76.198.141:6789";
-        private V1Pathes v1Pathes = new V1Pathes();
 
         #endregion
 
@@ -46,7 +46,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.GetAllProducts(this.v1Pathes.GetAllProducts);
+                return this.HttpHandler.GetAllProducts(V1Pathes.GetAllProducts);
             }
             catch (Exception e)
             {
@@ -58,7 +58,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.GetProduct(string.Format(this.v1Pathes.GetProduct, id));
+                return this.HttpHandler.GetProduct(string.Format(V1Pathes.GetProduct, id));
             }
             catch (Exception e)
             {
@@ -70,7 +70,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.PostAddProduct(this.v1Pathes.AddProduct, product);
+                return this.HttpHandler.PostAddProduct(V1Pathes.AddProduct, product);
             }
             catch (Exception e)
             {
@@ -82,7 +82,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.PutEditProduct(this.v1Pathes.EditProduct, product);
+                return this.HttpHandler.PutEditProduct(V1Pathes.EditProduct, product);
             }
             catch (Exception e)
             {
@@ -94,7 +94,7 @@ namespace ProductManager.ProductManager
         {
             try
             {
-                return this.HttpHandler.DeleteProduct(string.Format(this.v1Pathes.DeleteProduct, id));
+                return this.HttpHandler.DeleteProduct(string.Format(V1Pathes.DeleteProduct, id));
             }
             catch (Exception e)
             {
