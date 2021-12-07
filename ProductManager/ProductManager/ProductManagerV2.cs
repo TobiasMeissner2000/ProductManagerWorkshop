@@ -176,8 +176,7 @@ namespace ProductManager.ProductManager
                 throw e;
             }
         }
-
-
+        
         #endregion
     }
 }
