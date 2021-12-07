@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "riOT2lHTE7uHaRP7L2d5NL+Xg50zvKTqS2lxT57nCQbMWtsnP8a4fXx8pTA+k2r0eABgb5vtzrQwu0VEKAgPpQ==",
+  "dgSpecHash": "wr2FCUAm1FLv0V5UMBVWh9NVa1BWlkrLbSqK/biJ6mzWViUkOKgP2QlIiFuBBlhoG+ysRvpI/IKFB7/gmmkdzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tobias.meissner\\source\\repos\\WorkshopApi\\ProductManager\\ProductManager.csproj",
+  "projectFilePath": "C:\\DevGitHub\\ProductWorkshop\\ProductManager\\ProductManager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

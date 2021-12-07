@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tobias.meissner\\source\\repos\\WorkshopApi\\WorkshopApi\\WorkshopApi.csproj",
+      "projectUniqueName": "C:\\DevGitHub\\ProductWorkshop\\WorkshopApi\\WorkshopApi.csproj",
       "projectName": "WorkshopApi",
-      "projectPath": "C:\\Users\\tobias.meissner\\source\\repos\\WorkshopApi\\WorkshopApi\\WorkshopApi.csproj",
+      "projectPath": "C:\\DevGitHub\\ProductWorkshop\\WorkshopApi\\WorkshopApi.csproj",
       "packagesPath": "C:\\Users\\tobias.meissner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tobias.meissner\\source\\repos\\WorkshopApi\\WorkshopApi\\obj\\",
+      "outputPath": "C:\\DevGitHub\\ProductWorkshop\\WorkshopApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -59,8 +59,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tobias.meissner\\source\\repos\\WorkshopApi\\ProductManager\\ProductManager.csproj": {
-              "projectPath": "C:\\Users\\tobias.meissner\\source\\repos\\WorkshopApi\\ProductManager\\ProductManager.csproj"
+            "C:\\DevGitHub\\ProductWorkshop\\ProductManager\\ProductManager.csproj": {
+              "projectPath": "C:\\DevGitHub\\ProductWorkshop\\ProductManager\\ProductManager.csproj"
             }
           }
         }

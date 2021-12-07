@@ -25,8 +25,8 @@ namespace WorkshopApi
 
         public static async void TestMethod()
         {
-            
-            var allProducts = ProductManagerV1.GetAllProductsAsync();
+            var a = ProductManagerV2.GetAllReviews("101");
+            var allProducts = ProductManagerV2.GetReviewById("1", "101");
             
             var end = "hello";
         }
